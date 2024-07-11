@@ -8,48 +8,45 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-   
 }
 .container{
     background-color: #FAA275;
-    padding: 2rem;
-    min-height: 45vh;
-    min-width: 35vh;
-    border-radius: 1rem;
+    padding: 32px; /* 2rem */
+    /* min-height: 45vh; */
+    /* min-width: 35vh; */
+    border-radius: 16px; /* 1rem */
 }
-form select,button,input{
+form select, button, input{
     width: 100%;
     border: none;
     outline: none;
-    border-radius: 0.75rem;
-
+    border-radius: 12px; /* 0.75rem */
 }
 .amount{
-    margin-top: 1rem;
+    margin-top: 16px; /* 1rem */
 }
 .amount input{
-    margin-top: .5rem;
-    height: 2rem;
-    font-size: 1rem;
-    padding-left: .3rem;
+    margin-top: 8px; /* 0.5rem */
+    height: 32px; /* 2rem */
+    font-size: 16px; /* 1rem */
+    padding-left: 4.8px; /* 0.3rem */
     border: 1px solid white;
 }
 .countries{
-    margin-top: 1.5rem;
+    margin-top: 24px; /* 1.5rem */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px; /* 1.5rem */
 }
-
 .countries img{
-    max-width: 2rem;
+    max-width: 32px; /* 2rem */
 }
 .select-country{
     border: 1px solid grey;
-    display:flex;
-    width: 6rem;
-    border-radius: .5rem;
+    display: flex;
+    width: 96px; /* 6rem */
+    border-radius: 8px; /* 0.5rem */
     padding: 2px;
     align-items: center;
     justify-content: space-evenly;
@@ -60,17 +57,17 @@ form select,button,input{
     color: rgb(59, 59, 59);
 }
 .msg{
-margin :3rem 0 1rem 0;
-font-size: 1rem;
-font-weight:540;
+    margin: 48px 0 16px 0; /* 3rem 0 1rem 0 */
+    font-size: 16px; /* 1rem */
+    font-weight: 540;
 }
 form button{
-height: 3rem;
-font-size: 1.15rem;
-margin-top: 2rem;
-background-color: #94a1c4;
-color: rgb(240, 240, 240);
-font-weight: bold;
+    height: 48px; /* 3rem */
+    font-size: 18.4px; /* 1.15rem */
+    margin-top: 32px; /* 2rem */
+    background-color: #94a1c4;
+    color: rgb(240, 240, 240);
+    font-weight: bold;
 }
 form button:hover{
     cursor: pointer;
@@ -80,11 +77,9 @@ form button:hover{
 .change{
     background-color: transparent;
     color: black;
-    max-width: 2rem;
+    max-width: 32px; /* 2rem */
 }
-
 .change:hover{
-    
     background-color: transparent;
     color: black;
 }
