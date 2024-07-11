@@ -13,7 +13,7 @@ body{
     background-color: #FAA275;
     padding: 32px; /* 2rem */
     height: 45vh;
-    width: 35vh; 
+    width: 35vw; 
     border-radius: 16px; /* 1rem */
 }
 form select, button, input{
