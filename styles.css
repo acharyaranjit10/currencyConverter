@@ -12,8 +12,8 @@ body{
 .container{
     background-color: #FAA275;
     padding: 32px; /* 2rem */
-    /* min-height: 45vh; */
-    /* min-width: 35vh; */
+    height: 45vh;
+    width: 35vh; 
     border-radius: 16px; /* 1rem */
 }
 form select, button, input{
